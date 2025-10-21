@@ -21,10 +21,10 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #37517e; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #47b2e4; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --background-color: #e4e4de; /* Background color for the entire website, including individual sections */
+  --default-color: #7c7b68; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #497283; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #73a1a1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -47,7 +47,7 @@
 }
 
 .dark-background {
-  --background-color: #37517e;
+  --background-color: #305869;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #4668a2;
@@ -175,7 +175,7 @@ h6 {
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #73a1a1;
   font-size: 14px;
   padding: 8px 25px;
   margin: 0 0 0 30px;
@@ -186,7 +186,7 @@ h6 {
 .header .btn-getstarted:hover,
 .header .btn-getstarted:focus:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #56bbbb;
 }
 
 @media (max-width: 1200px) {
@@ -208,7 +208,7 @@ h6 {
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
-  --background-color: rgba(255, 255, 255, 0);
+  --background-color: #343441;
   --heading-color: #ffffff;
   --nav-color: #ffffff;
 }
@@ -216,7 +216,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: rgba(40, 58, 90, 0.9);
+  --background-color: #343441;
 }
 
 /*--------------------------------------------------------------
@@ -269,7 +269,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: var(--nav-hover-color);
+    color: #56bbbb;
   }
 
   .navmenu .dropdown ul {
@@ -874,7 +874,7 @@ section,
 
 .hero .btn-get-started {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: #73a1a1;
   font-family: var(--heading-font);
   font-weight: 500;
   font-size: 15px;
@@ -887,7 +887,7 @@ section,
 
 .hero .btn-get-started:hover {
   color: var(--contrast-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 15%);
+  background: #56bbbb;
 }
 
 .hero .btn-watch-video {
